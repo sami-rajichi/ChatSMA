@@ -1,0 +1,6 @@
+## Llama 2 Model I used for this project:
+
+llama-2-7b-chat.ggmlv3.q8_0.bin
+
+## Access the following link to download the quantize model:
+https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
