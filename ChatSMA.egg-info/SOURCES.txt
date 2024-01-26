@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+ChatSMA.egg-info/PKG-INFO
+ChatSMA.egg-info/SOURCES.txt
+ChatSMA.egg-info/dependency_links.txt
+ChatSMA.egg-info/top_level.txt
+src/__init__.py
+src/helper.py
+src/prompt.py

@@ -6,11 +6,11 @@ logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
 
 list_of_files = [
-    "Src/__init__.py",
-    "Src/helper.py",
-    "Src/prompt.py",
+    "src/__init__.py",
+    "src/helper.py",
+    "src/prompt.py",
     ".env",
-    "app_info.py",
+    "setup.py",
     "chatsma.py",
     "pinecone_index_store.py",
     "Static/.gitkeep",
@@ -24,11 +24,11 @@ for filepath in list_of_files:
 
    if filedir != "":
       os.makedirs(filedir, exist_ok=True)
-      logging.info(f"Creating directory -> {filedir}.")
+      logging.info(f"Creating directory -> {filedir}")
 
    if (not os.path.exists(filepath)) or (os.path.getsize(filepath) == 0):
       with open(filepath, 'w') as f:
-         logging.info(f"Creating empty file -> {filepath}.")
+         logging.info(f"Creating empty file -> {filepath}")
          pass
 
    else:
