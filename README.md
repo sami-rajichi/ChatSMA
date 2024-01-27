@@ -6,10 +6,10 @@ This chatbot leverages cutting-edge technologies to deliver accurate and informa
 
 The chatbot's core functionalities include:
 
-Providing information about genetics, inheritance patterns, and genetic disorders.
-Offering insights into SMA diseases, including causes, symptoms, and treatment options.
-Engaging users in interactive conversations to address specific queries and concerns.
-Utilizing advanced language models and AI algorithms to understand user intent and generate relevant responses.
+- Providing information about genetics, inheritance patterns, and genetic disorders.
+- Offering insights into SMA diseases, including causes, symptoms, and treatment options.
+- Engaging users in interactive conversations to address specific queries and concerns.
+- Utilizing advanced language models and AI algorithms to understand user intent and generate relevant responses.
 
 ## Technologies 
 
@@ -57,7 +57,6 @@ git clone https://github.com/sami-rajichi/ChatSMA.git
 pip install -r requirements.txt
 ```
 
-
 ## Usage
 
 1. Run the Pinecone index store script to set up the database:
@@ -72,9 +71,15 @@ python chatsma.py
 
 3. Access the chatbot interface via your browser.
 
-## Contributing
+## Project Screenshots
 
-Contributions are welcome! Please fork the repository, make your changes, and submit a pull request.
+Here are some screenshots of the Medical Chatbot for Genetics and SMA Diseases:
+
+1. ![Screenshot 1](Images/1.PNG)
+
+2. ![Screenshot 2](Images/2.PNG)
+
+3. ![Screenshot 3](Images/3.PNG)
 
 ## License
 
